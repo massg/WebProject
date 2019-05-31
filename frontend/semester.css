@@ -36,7 +36,7 @@ body, html {
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 69%;
-  height: 50%;
+              
   padding: 20px;
   text-align: center;
 }
@@ -53,8 +53,8 @@ font-size: 79px;
 
 
 button {
-  width: 150px;
-  height: 119px;
+  width: 145px;
+  height: 85px;
   color: #ffffff;
   background-color: #3498db;
   font-family: Open Sans Condensed;
