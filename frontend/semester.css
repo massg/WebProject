@@ -43,3 +43,37 @@ body, html {
 .MainHead{
 font-size: 79px;
 }
+
+
+#container {
+  width: 330px;
+  margin: 25px auto;
+}
+
+
+
+button {
+  width: 150px;
+  height: 119px;
+  color: #ffffff;
+  background-color: #3498db;
+  font-family: Open Sans Condensed;
+  text-decoration: none;
+  font-size: 1.8em;
+  border: 2px #ffffff solid;
+  margin: 10px 0 0 5px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/*magic starts here*/
+
+button:hover {
+  cursor: pointer;
+}
+
+.highlight:hover {
+  background-color: #FFffff;
+  color: #3498db;
+}
+

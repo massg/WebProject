@@ -12,23 +12,17 @@ app.get('/',function(req, res){
     //res.send("hey yo people")
     res.sendFile(__dirname+"/frontend/home.html")
 })
-
-app.get('/:college',function(req, res){
-//the page for branch
-    //res.send("hey yo people")
-    res.sendFile(__dirname+"/frontend/branch.html") // this could be ejs lets make it in html it self for now 
-})
 	
 app.get('/branch',function(req, res){
 //the semester page
     //res.send("hey yo people")
-    res.sendFile(__dirname+"/frontend/semester.html")
+    res.sendFile(__dirname+"/frontend/branch.html")
 })
 
-app.get('/:semester',function(req, res){
+app.get('/sem',function(req, res){
 //the subject page
     //res.send("hey yo people")
-    res.sendFile(__dirname+"/frontend/subjects.html")
+    res.sendFile(__dirname+"/frontend/semester.html")
 })	
 
 app.listen(8001, function(){
