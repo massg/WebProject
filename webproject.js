@@ -12,7 +12,12 @@ app.get('/',function(req, res){
     //res.send("hey yo people")
     res.sendFile(__dirname+"/frontend/home.html")
 })
-	
+
+//to login to account
+app.get('/rollsubmit',function(req,res){
+  //the ejs file of branch.html and then to semester.html
+  res.sendFile(__dirname+"/frontend/branch.html")
+})
 app.get('/branch',function(req, res){
 //the semester page
     //res.send("hey yo people")
@@ -23,8 +28,8 @@ app.get('/sem',function(req, res){
 //the subject page
     //res.send("hey yo people")
     res.sendFile(__dirname+"/frontend/semester.html")
-})	
+})
 
-app.listen(8001, function(){
+app.listen(8003, function(){
 console.log("Server Initiated...")
 })
